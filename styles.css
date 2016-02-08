@@ -17,4 +17,5 @@ body {
 #sidebar {
   float: left;
   background-color: #8fbc8f;
+  padding: 10px;
 }
