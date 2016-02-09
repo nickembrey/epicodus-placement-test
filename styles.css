@@ -14,8 +14,12 @@ body {
   background-color: #e6e6e6;
 }
 
+#main {
+}
+
 #sidebar {
   float: left;
   background-color: #8fbc8f;
   padding: 10px;
+  margin-right: 50px;
 }
