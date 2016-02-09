@@ -22,8 +22,12 @@ h3 {
   margin-top: 50px;
 }
 
-p {
-  color: white;
+#main p {
+  display: inline;
+}
+
+h4 {
+  display: inline;
 }
 
 #sidebar {
@@ -31,4 +35,8 @@ p {
   background-color: #8fbc8f;
   padding: 10px;
   margin-right: 50px;
+}
+
+#sidebar p {
+  color: white;
 }
