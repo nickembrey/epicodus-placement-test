@@ -22,14 +22,6 @@ h3 {
   margin-top: 50px;
 }
 
-#main p {
-  display: inline;
-}
-
-h4 {
-  display: inline;
-}
-
 #sidebar {
   float: left;
   background-color: #8fbc8f;
