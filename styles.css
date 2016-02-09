@@ -31,6 +31,8 @@ ol {
   background-color: #8fbc8f;
   padding: 10px;
   margin-right: 50px;
+  position: absolute;
+  height: 100%;
 }
 
 #sidebar p {
