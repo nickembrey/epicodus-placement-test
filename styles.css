@@ -14,7 +14,15 @@ body {
   background-color: #e6e6e6;
 }
 
+h4 {
+  color: #ffe5b3;
+}
+
 #main {
+}
+
+p {
+  color: white;
 }
 
 #sidebar {
