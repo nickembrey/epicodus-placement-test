@@ -1,5 +1,8 @@
 var pingPong = function(number) {
-  if( (number % 5 === 0) && (number % 3 === 0) ) {
+  if (number % 1 != 0) {
+    return "Oops! That’s not an integer. Please input an integer.";
+  }
+  else if( (number % 5 === 0) && (number % 3 === 0) ) {
     return "pingpong";
   }
   else if(number % 5 === 0) {
