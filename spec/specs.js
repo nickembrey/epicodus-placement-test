@@ -14,8 +14,10 @@ describe('pingPong', function() {
   it("returns 'pingpong' when the number is divisible by both 5 and 3", function() {
     expect(pingPong(30)).to.equal("pingpong");
   });
+});
 
+describe('playPingPong', function() {
   it("returns an error message if the input is not an integer", function() {
-    expect(pingPong("cabbage cabbage")).to.equal("Oops! That’s not an integer. Please input an integer.");
+    expect(playPingPong("cabbage cabbage")).to.equal("Oops! That’s not an integer. Please input an integer.");
   });
 });
