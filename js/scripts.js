@@ -16,7 +16,7 @@ var playPingPong = function(userInput) {
   if (userInput % 1 != 0) {
     return 'Oops! That’s not an integer. Please input an integer.';
   } else {
-    for(inputCounter = 0; inputCounter < userInput; inputCounter++) {
+    for(inputCounter = 1; inputCounter <= userInput; inputCounter++) {
       $('#ping-pong-list').append('<li>' + pingPong(inputCounter) + '</li>');
     }
   }
