@@ -14,3 +14,9 @@ var pingPong = function(number) {
     return number;
   }
 }
+
+$(function() {
+  $('#start-ping-pong').click(function() {
+    alert("jQuery working with button!");
+  });
+});
