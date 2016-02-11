@@ -15,7 +15,7 @@ describe('pingPong', function() {
     expect(pingPong(30)).to.equal("pingpong");
   });
 
-  it("returns an error message if the input is not a number", function() {
-    expect(pingPong("cabbage cabbage")).to.equal("Oops! That’s not a number. Please input a number.");
+  it("returns an error message if the input is not an integer", function() {
+    expect(pingPong("cabbage cabbage")).to.equal("Oops! That’s not an integer. Please input a number.");
   });
 });
