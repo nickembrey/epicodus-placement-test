@@ -9,5 +9,9 @@ describe('pingPong', function() {
 
   it("returns 'pong' when the number is divisible by 5 but not 3", function() {
     expect(pingPong(20)).to.equal("pong");
-  })
+  });
+
+  it("returns 'pingpong' when the number is divisible by both 5 and 3", function() {
+    expect(pingPong(20)).to.equal("pingpong");
+  });
 });
