@@ -3,7 +3,11 @@ describe('pingPong', function() {
     expect(pingPong(16)).to.equal(16);
   });
 
-  it("returns ping when the number is divisible by 3 but not 5", function() {
+  it("returns 'ping' when the number is divisible by 3 but not 5", function() {
     expect(pingPong(9)).to.equal("ping");
   });
+
+  it("returns 'pong' when the number is divisible by 5 but not 3", function() {
+    expect(pingPong(20)).to.equal("pong");
+  })
 });
