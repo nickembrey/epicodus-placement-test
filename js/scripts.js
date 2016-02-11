@@ -23,7 +23,7 @@ var playPingPong = function(userInput) {
 };
 
 $(function() {
-  $('#start-ping-pong').click(function() {
+  $('#ping-pong-form').submit(function() {
     $('#main').append('<ul id="ping-pong-list"></ul>')
   });
 });
