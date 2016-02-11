@@ -12,6 +12,6 @@ describe('pingPong', function() {
   });
 
   it("returns 'pingpong' when the number is divisible by both 5 and 3", function() {
-    expect(pingPong(20)).to.equal("pingpong");
+    expect(pingPong(30)).to.equal("pingpong");
   });
 });
