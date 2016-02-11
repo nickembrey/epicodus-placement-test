@@ -16,6 +16,7 @@ var playPingPong = function(userInput) {
   if (userInput % 1 != 0) {
     return 'Oops! That’s not an integer. Please input an integer.';
   } else {
+    $('#main').append('<ul id="ping-pong-list"></ul>');
     for(inputCounter = 1; inputCounter <= userInput; inputCounter++) {
       $('#ping-pong-list').append('<li>' + pingPong(inputCounter) + '</li>');
     }
@@ -24,7 +25,7 @@ var playPingPong = function(userInput) {
 
 $(function() {
   $('#ping-pong-form').submit(function(event) {
-    $('#main').append('<ul id="ping-pong-list"></ul>');
+    $('#ping-pong-list').remove();
     playPingPong( $('#ping-pong-number').val() );
     event.preventDefault();
   });
