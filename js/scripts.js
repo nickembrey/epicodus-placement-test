@@ -23,7 +23,9 @@ var playPingPong = function(userInput) {
 };
 
 $(function() {
-  $('#ping-pong-form').submit(function() {
-    $('#main').append('<ul id="ping-pong-list"></ul>')
+  $('#ping-pong-form').submit(function(event) {
+    $('#main').append('<ul id="ping-pong-list"></ul>');
+    playPingPong( $('#ping-pong-number').val() );
+    event.preventDefault();
   });
 });
