@@ -1,6 +1,6 @@
 # Ping Pong
 
-#### Simple Javascript application to demonstrate proficiency in the skills taught in Epicodus' introductory course. February 11, 2006.
+#### Simple Javascript application to demonstrate proficiency in the skills taught in Epicodus' introductory course. February 11, 2016.
 
 #### By Nick Embrey
 
