@@ -16,7 +16,7 @@ var playPingPong = function(userInput) {
     $('#main').append('<ul id="ping-pong-list"></ul>');
     for(inputCounter = 1; inputCounter <= userInput; inputCounter++) {
       $('#ping-pong-list').append('<li>' + pingPong(inputCounter) + '</li>');
-  }
+    }
 };
 
 $(function() {
